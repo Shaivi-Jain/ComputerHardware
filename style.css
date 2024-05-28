@@ -1,0 +1,32 @@
+body {
+    background-color: black;
+}
+h1{
+    color: rgb(255, 255, 255);
+    background-color: black;
+}
+p1{
+    color: rgb(194, 205, 207);
+    background-color: black;
+}
+div{
+    height: 600px;
+    width: 300px;
+    border: 10px;
+    background-color: rgb(173, 224, 233);
+    border: 2px black dotted;
+}
+
+.flex-container {
+    display: flex;
+    background-color: rgb(166, 176, 185); 
+    width: 800px;
+    height: 750px;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 60px;
+    padding: 20px;
+    font-size: 30px;
+  }
