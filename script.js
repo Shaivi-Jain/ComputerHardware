@@ -75,55 +75,61 @@ const quizData = [
         correctAnswer: "Universal Serial Bus"
     },
     {
-        question: "",
-        choices: ["", "", "", ""],
+        question: "What does USB stand for?",
+        choices: ["Universal Serial Bus", "Unified System Bandwidth", "Unique Serial Block", "Unified System Board"],
+        correctAnswer: "Universal Serial Bus"
+    },
+    {
+        question: "Which type of display technology does not require a backlight?",
+        choices: ["LCD", "LED", "OLED", "Plasma"],
+        correctAnswer: "OLED"
+    },
+    {
+        question: "Which component of a computer system converts digital data into analog signals for transmission over telephone lines?",
+        choices: ["Modem", "Router", "Switch", "Hub"],
+        correctAnswer: "Modem"
+    },
+    {
+        question: "Which of the following is not an input device?",
+        choices: ["Keyboard", "Mouse", "Monitor", "Scanner"],
+        correctAnswer: "Monitor"
+    },
+    {
+        question: "What does LAN stand for?",
+        choices: ["Local Access Network", "Large Area Network", "Local Area Network", "Longitudinal Access Network"],
         correctAnswer: ""
     },
     {
-        question: "",
-        choices: ["", "", "", ""],
-        correctAnswer: ""
+        question: "Which of the following is used to cool down the CPU in a computer?",
+        choices: ["Heat Sink", "Fan", "Liquid Cooling System", "All of the above"],
+        correctAnswer: "All of the above"
     },
     {
-        question: "",
-        choices: ["", "", "", ""],
-        correctAnswer: ""
+        question: "What is the purpose of a heat sink in a computer?",
+        choices: ["To store data permanently", "To provide power to other components", "To cool down the CPU", "To process and output audio signals"],
+        correctAnswer: "To cool down the CPU"
     },
     {
-        question: "",
-        choices: ["", "", "", ""],
-        correctAnswer: ""
+        question: "Which type of memory is non-volatile?",
+        choices: ["RAM", "ROM", "Cache", "Virtual Memory"],
+        correctAnswer: "ROM"
     },
     {
-        question: "",
-        choices: ["", "", "", ""],
-        correctAnswer: ""
+        question: "What is the function of a network switch?",
+        choices: ["To connect multiple devices in a network", "To convert digital data into analog signals", "To provide power to other network devices", "To convert analog signals into digital data"],
+        correctAnswer: "To connect multiple devices in a network"
     },
     {
-        question: "",
-        choices: ["", "", "", ""],
-        correctAnswer: ""
+        question: "Which of the following is not a type of computer port?",
+        choices: ["USB", "HDMI", "CPU", "Ethernet"],
+        correctAnswer: "CPU"
     },
     {
-        question: "",
-        choices: ["", "", "", ""],
-        correctAnswer: ""
+        question: "Which interface standard is used to connect external hard drives and other peripherals to a computer?",
+        choices: ["SATA", "USB", "HDMICPU", "Thunderbolt"],
+        correctAnswer: "USB"
     },
-    {
-        question: "",
-        choices: ["", "", "", ""],
-        correctAnswer: ""
-    },
-    {
-        question: "",
-        choices: ["", "", "", ""],
-        correctAnswer: ""
-    },
-    {
-        question: "",
-        choices: ["", "", "", ""],
-        correctAnswer: ""
-    },
+
 
 ];
 
@@ -170,84 +176,3 @@ function nextQuestion() {
 
 // Initial load
 loadQuestion();
-
-
-
-
-What does USB stand for?
-
-A) Universal Serial Bus
-B) Unified System Bandwidth
-C) Unique Serial Block
-D) Unified System Board
-Correct Answer: A) Universal Serial Bus
-Which type of display technology does not require a backlight?
-
-A) LCD
-B) LED
-C) OLED
-D) Plasma
-Correct Answer: C) OLED (Organic Light-Emitting Diode)
-Which component of a computer system converts digital data into analog signals for transmission over telephone lines?
-
-A) Modem
-B) Router
-C) Switch
-D) Hub
-Correct Answer: A) Modem (Modulator-Demodulator)
-Which of the following is not an input device?
-
-A) Keyboard
-B) Mouse
-C) Monitor
-D) Scanner
-Correct Answer: C) Monitor
-What does LAN stand for?
-
-A) Local Access Network
-B) Large Area Network
-C) Local Area Network
-D) Longitudinal Access Network
-Correct Answer: C) Local Area Network
-Which of the following is used to cool down the CPU in a computer?
-
-A) Heat Sink
-B) Fan
-C) Liquid Cooling System
-D) All of the above
-Correct Answer: D) All of the above
-Which interface standard is used to connect external hard drives and other peripherals to a computer?
-
-A) SATA
-B) USB
-C) HDMI
-D) Thunderbolt
-Correct Answer: B) USB (Universal Serial Bus)
-What is the purpose of a heat sink in a computer?
-
-A) To store data permanently
-B) To provide power to other components
-C) To cool down the CPU
-D) To process and output audio signals
-Correct Answer: C) To cool down the CPU
-Which type of memory is non-volatile?
-
-A) RAM
-B) ROM
-C) Cache
-D) Virtual Memory
-Correct Answer: B) ROM (Read-Only Memory)
-What is the function of a network switch?
-
-A) To connect multiple devices in a network
-B) To convert digital data into analog signals
-C) To provide power to other network devices
-D) To convert analog signals into digital data
-Correct Answer: A) To connect multiple devices in a network
-Which of the following is not a type of computer port?
-
-A) USB
-B) HDMI
-C) CPU
-D) Ethernet
-Correct Answer: C) CPU
