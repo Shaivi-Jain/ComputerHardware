@@ -9,13 +9,7 @@ p1{
     color: rgb(194, 205, 207);
     background-color: black;
 }
-div{
-    height: 600px;
-    width: 300px;
-    border: 10px;
-    background-color: rgb(173, 224, 233);
-    border: 2px black dotted;
-}
+
 
 .flex-container {
     display: flex;
@@ -24,9 +18,25 @@ div{
     height: 750px;
   }
   
-  .flex-container > div {
+.flex-container > div {
     background-color: #f1f1f1;
     margin: 60px;
     padding: 20px;
     font-size: 30px;
   }
+.quiz-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;}
+button:hover {
+        background-color: #0056b3;
+    }
