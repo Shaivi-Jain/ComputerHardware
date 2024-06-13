@@ -135,12 +135,13 @@ const quizData = [
 
 
 
-let currentQuestion = 1;
+let currentQuestion = 0;
 let score = 0;
 
 const questionElement = document.getElementById('question');
 const choicesElement = document.getElementById('choices');
 const scoreElement = document.getElementById('score');
+next = false;
 
 function loadQuestion() {
     const currentQuizData = quizData[currentQuestion];
@@ -158,13 +159,16 @@ function loadQuestion() {
 
 function checkAnswer(answer) {
     const currentQuizData = quizData[currentQuestion];
-    if (answer === currentQuizData.correctAnswer) {
+    if (answer === currentQuizData.correctAnswer ) {
         score++;
+        next = true;
         scoreElement.innerText = `Score: ${score}`;
     }
+    next = false;
 }
 
 function nextQuestion() {
+    if (next) {
     currentQuestion++;
     if (currentQuestion < quizData.length) {
         loadQuestion();
@@ -172,6 +176,7 @@ function nextQuestion() {
         alert('Quiz completed!');
         // You can add further actions after completing the quiz
     }
+}
 }
 
 // Initial load
