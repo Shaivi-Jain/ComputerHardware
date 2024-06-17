@@ -1,42 +1,58 @@
 body {
-    background-color: black;
+    font-family: "Playwrite Slovensko", cursive;
+    color: #08203b;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
 }
-h1{
-    color: rgb(255, 255, 255);
-    background-color: black;
-}
-p1{
-    color: rgb(194, 205, 207);
-    background-color: black;
-}
-
-
-.flex-container {
-    display: flex;
-    background-color: rgb(166, 176, 185); 
-    width: 800px;
-    height: 750px;
-  }
-  
-.flex-container > div {
-    background-color: #f1f1f1;
-    margin: 60px;
-    padding: 20px;
-    font-size: 30px;
-  }
-.quiz-container {
-    max-width: 600px;
-    margin: 0 auto;
+header {
+    background-color: #19183d;
+    color: white;
+    padding: 10px 0;
     text-align: center;
 }
-button {
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: #fff;
+main {
+    padding: 20px;
+}
+ul {
+    list-style-type: none;
+}
+select {
+    font-family: "Concert One", sans-serif;
+    font-size: 0.9rem;
+    align-content: center;
+    border: 1px solid transparent;
+    background-color: #08203b;
+    color: white;
+}
+select-hide {
+    display: none;
+}
+footer {
+    text-align: center;
+    color: white;
+    background-color: #a4bedc;
+    padding: 1% 1%;
+}
+#button {
+    border-radius: 12px;
+    background-color: #a4bedc;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;}
-button:hover {
-        background-color: #0056b3;
-    }
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    font-size: 16px;
+    font-family: "Concert One", sans-serif;
+    margin: 2px 1px;
+    opacity: 0.6;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+#button:hover {
+    opacity: 1;
+}
+.question {
+    margin-bottom: 20px;
+}
