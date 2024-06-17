@@ -31,12 +31,12 @@ select-hide {
 footer {
     text-align: center;
     color: white;
-    background-color: #a4bedc;
+    background-color: #08203b;
     padding: 1% 1%;
 }
 #button {
     border-radius: 12px;
-    background-color: #a4bedc;
+    background-color: #08203b;
     border: none;
     color: white;
     padding: 8px 16px;
