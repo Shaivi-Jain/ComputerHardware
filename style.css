@@ -1,15 +1,18 @@
 body {
     font-family: "Playwrite Slovensko", cursive;
-    color: #08203b;
+    color: #ffffff;
     margin: 0;
     padding: 0;
     background-color: #ffffff;
+    background-image: url('hardware.3bg.jpg');
 }
+
 header {
     background-color: #08203b;
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 10px 0;
     text-align: center;
+    background-image: url('hardwarebg.jpg');
 }
 main {
     padding: 20px;
@@ -30,9 +33,10 @@ select-hide {
 }
 footer {
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     background-color: #08203b;
     padding: 1% 1%;
+    background-image: url('hardwarebg.jpg');
 }
 #button {
     border-radius: 12px;
@@ -55,4 +59,10 @@ footer {
 }
 .question {
     margin-bottom: 20px;
+}
+img{
+    width: 50%;
+    height: 80%;
+    float: right;
+    border: #08203b ;
 }
