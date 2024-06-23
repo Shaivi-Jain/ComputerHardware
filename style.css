@@ -66,3 +66,9 @@ img{
     float: right;
     border: #08203b ;
 }
+.correct-answer {
+    color: green; /* Example style for correct answers */
+  }
+  .wrong-answer {
+    color: red; /* Example style for wrong answers */
+  }
